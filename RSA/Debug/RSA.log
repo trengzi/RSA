@@ -1,0 +1,35 @@
+﻿  RSADlg.cpp
+D:\rac\g1n\RSA (1)\RSA\RSA\RSADlg.cpp(104,23): warning C4018: '<': signed/unsigned mismatch
+D:\rac\g1n\RSA (1)\RSA\RSA\RSADlg.cpp(106,33): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+D:\rac\g1n\RSA (1)\RSA\RSA\RSADlg.cpp(183,23): warning C4018: '<': signed/unsigned mismatch
+D:\rac\g1n\RSA (1)\RSA\RSA\RSADlg.cpp(564,23): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2824,53): warning C4244: 'argument': conversion from 'wchar_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.33.31629\include\xstring(2664): message : see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*>(_Iter,const _Iter)' being compiled
+          with
+          [
+              _Iter=wchar_t *
+          ]
+D:\rac\g1n\RSA (1)\RSA\RSA\RSADlg.cpp(625): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+D:\rac\g1n\RSA (1)\RSA\RSA\RSADlg.cpp(625): message : see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+  RSA.vcxproj -> D:\rac\g1n\RSA (1)\RSA\Debug\RSA.exe
